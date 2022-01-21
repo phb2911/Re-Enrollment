@@ -1,0 +1,100 @@
+.dropdownMenu,
+.dropdownMenu ul {
+  /*background: #61269e;
+  background: #f0f0f0;*/
+}
+
+.dropdownMenu li:hover > a,
+.dropdownMenu li.dropdownMenuOpen > a {
+  /* background: #b99fd4; */
+  background: #3399ff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.dropdownMenu li:hover > span,
+.dropdownMenu li.dropdownMenuOpen > span {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+dropdownMenu img{
+    vertical-align: bottom;
+}
+
+.dropdownMenu,
+.dropdownMenu ul,
+.dropdownMenu li{
+  margin  : 0;
+  padding : 0;
+}
+
+.dropdownMenu ul{
+  display  : none;
+  position : absolute;
+  top      : 100%;
+  left     : 0;
+  z-index  : 1;
+  box-shadow: 2px 2px 2px #808080;
+  border: #a0a0a0 solid 1px;
+}
+
+.dropdownMenu ul ul{
+  top  : 0;
+  left : 100%;
+}
+
+.dropdownMenu ul .dropdownMenuRightToLeft ul{
+  left  : auto;
+  right : 100%;
+}
+
+.dropdownMenu li{
+  position        : relative;
+  display         : block;
+  list-style-type : none;
+}
+
+.dropdownMenu > li{
+  display : inline-block;
+}
+
+.dropdownMenu a {
+  display         : block;
+  text-decoration : none;
+  white-space     : pre;
+  padding    : 0.25em 0.75em;
+  color      : black;
+  transition : background 0s;
+  font-family: calibri;
+}
+
+.dropdownMenu span {
+    /*background: white;*/
+}
+
+.dropdownMenu li:hover > ul{
+  display : block;
+}
+
+.dropdownMenuVertical{
+  display : inline-block;
+}
+
+.dropdownMenuVertical > li{
+  display : block;
+}
+
+.dropdownMenuVertical ul{
+  top  : 0;
+  left : 100%;
+}
+
+.dropdownMenuJavaScript li:hover > ul{
+  display : none;
+}
+
+.dropdownMenuJavaScript li.dropdownMenuOpen > ul{
+  display : block;
+  background: #f0f0f0;
+}
