@@ -18,7 +18,7 @@ There is also a management section that only the admins have access. In this sec
 
 The data for this application is stored into a MySQL server database.
 
-![Image](imgs/img9.png)
+![Image](imgs/img10.png)
 
 ### MIT License
 
