@@ -1,5 +1,4 @@
-Re-Enrolment
-============
+## Re-Enrolment a
 
 This project contains a web application used to manage the re-enrollment of students and the teacher’s “time bank” of a private school. The technologies used in its development are PHP, HTML, JavaScript, CSS, Ajax and MySQL.
 
