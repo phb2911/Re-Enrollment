@@ -1,5 +1,4 @@
-Re-Enrolment
-============
+## Re-Enrolment
 
 This project contains a web application used to manage the re-enrollment of students and the teacher’s “time bank” of a private school. The technologies used in its development are PHP, HTML, JavaScript, CSS, Ajax and MySQL.
 
@@ -18,3 +17,16 @@ Another feature of this application is the management of the teachers’ “time
 There is also a management section that only the admins have access. In this section, the admins may perform a database backup, add/remove/enable/disable the access of teachers or other admins, create new teachers/admins, check the access log, change login ids and passwords, etc.
 
 The data for this application is stored into a MySQL server database.
+
+![Image](imgs/img9.png)
+
+### MIT License
+
+**Copyright (c) 2022 Pablo Borges**
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
